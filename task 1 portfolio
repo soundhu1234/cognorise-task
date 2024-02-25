@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="task1.css">
+</head>
+<body>
+    <header>
+        <h1>Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Enthusiastic student from Sri Krishna Arts and Science College with a solid foundation in HTML, SQL, and JavaScript. Eager to apply academic knowledge to real-world challenges and embark on a fulfilling career.</p>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <p>
+            <ul>
+                <li>capstone project</li>
+            </ul>
+            Topic:student canteen mangement system<br>
+            Tools used: <ol>
+                <li>Apache Netbeans</li>
+                <li>MySQL</li>
+            </Ol>
+        </p>
+        
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <P>Basic Knowledge in the field of<ul>
+            <li>HTML</li>
+            <li>css</li>
+            <li>JavaScript</li>
+        </ul></P>
+        
+    </section>
+    <section id="contact">
+        <h2>Contact</h2>
+        <p><b>phone number:</b>+91 93********4</p>
+        <p><B>Email:</B>sowndhu510@gmail.com</p>
+        <p><b>Linkdin url:</b>https://www.linkedin.com/in/soundarya-darshini-r-3097a3253/</p>
+        
+    </section>
+
+    <footer>
+        <p>&copy; 2024 R Soundarya Darshini</p>
+    </footer>
+</body>
+</html>
+
+//css code
+/* Basic Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #80a7fc;
+    color: #131111;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #0b0a0a;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    background-color: #e5eef8;
+    margin: 20px;
+}
+
+footer {
+    background-color: #80a7fc;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 7vh;
+}
+
